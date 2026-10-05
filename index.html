@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Survive from MrBon — скачать бесплатно</title>
+<meta name="description" content="Survive from MrBon — 2D хоррор на выживание. Скачай бесплатно и выживи от медведя!">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#000;color:#efe6e0;font-family:'IBM Plex Sans',sans-serif}
+.hero{max-width:1000px;margin:0 auto;padding:32px 24px 80px;display:flex;flex-direction:column;gap:28px;align-items:center;text-align:center}
+.title{width:100%;max-width:900px;height:auto;display:block;-webkit-mask-image:linear-gradient(to bottom,#000 80%,transparent);mask-image:linear-gradient(to bottom,#000 80%,transparent)}
+.lead{margin:0;max-width:560px;font-size:20px;line-height:1.55;color:#c9bdb5}
+.row{display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:center}
+.bear{height:200px;width:auto;display:block;image-rendering:pixelated}
+.cta{display:flex;flex-direction:column;gap:12px;align-items:flex-start}
+.btn{min-height:64px;padding:0 40px;display:inline-flex;align-items:center;gap:12px;background:#b32a22;color:#fff;font-family:'Oswald',sans-serif;font-weight:700;font-size:22px;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none}
+.btn:hover{background:#d6382e}
+.note{font-size:18px;line-height:1.4;max-width:260px}
+footer{background:#fff;color:#111;padding:48px 24px 36px;display:flex;flex-direction:column;gap:12px;align-items:center;text-align:center}
+footer img{width:220px;height:auto;display:block}
+.company{font-family:'Oswald',sans-serif;font-weight:500;font-size:20px;letter-spacing:2px;text-transform:uppercase}
+.small{font-size:15px;color:#444}
+</style>
+</head>
+<body>
+<main class="hero">
+  <img class="title" src="assets/title.png" alt="Survive from MrBon">
+  <p class="lead">2D хоррор на выживание. У тебя 30 секунд, чтобы запереться в комнате и укрепить дверь. Потом придёт медведь.</p>
+  <div class="row">
+    <img class="bear" src="assets/bear.png" alt="Мистер Бон">
+    <div class="cta">
+      <a class="btn dl" href="#">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 11l5 5 5-5"/><path d="M4 20h16"/></svg>
+        Скачать на ПК
+      </a>
+      <span class="note">Скачай бесплатно и выживи от медведя!</span>
+    </div>
+  </div>
+</main>
+<footer>
+  <img src="assets/studio.png" alt="MrBon StudioX">
+  <div class="company">Компания MrBon StudioX</div>
+  <div class="small">created by asadullahexe</div>
+  <div class="small">survivefrommrbon.com</div>
+</footer>
+<script>
+// ВСТАВЬ СЮДА ССЫЛКУ НА СВОЮ ИГРУ (одна строка меняет обе кнопки)
+var DOWNLOAD_URL = "#";
+document.querySelectorAll(".dl").forEach(function(a){a.href = DOWNLOAD_URL;});
+</script>
+</body>
+</html>
